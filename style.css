@@ -17,6 +17,7 @@ body {
     justify-content: start;
     align-items: center;
     background: #07090f;
+    /* background: #0040ff; */
 }
 
 #icon {
@@ -47,11 +48,35 @@ body {
     background-color: #202227;
 }
 
-#top-p{
+#top-p {
     color: #86a5ff;
-    background: rgb(132, 0, 255);
-    width: 800px;
+    /* background: rgb(132, 0, 255); */
+    width: 780px;
     text-align: center;
+}
+
+.icons-top {
+    color: #86a5ff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 333px;
+    height: 35px;
+    font-size: 15px;
+}
+
+#fa_ico,
+#fa_ico2 {
+    padding: 12.5px 12px;
+}
+
+#fa_ico:hover{
+    background-color: #202227;
+}
+
+#fa_ico2:hover{
+    background-color: red;
+    color: white;
 }
 
 /* START: All styling related to "header-left" class */
